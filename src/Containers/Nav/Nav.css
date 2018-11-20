@@ -1,0 +1,23 @@
+.Nav {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(80, 220, 120, .3);
+  position: fixed;
+  top: -100vh;
+  /* transition-duration: 1s; */
+  /* transition-timing-function: ease-out; */
+}
+.Nav:active {
+  /* top: 0vh; */
+  /* transition-duration: 1s; */
+  /* transition-timing-function: ease-out; */
+}
+.ToggleMenu {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  align-self: center;
+}

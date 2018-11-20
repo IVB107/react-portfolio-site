@@ -1,0 +1,20 @@
+.Skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+  width: 120px;
+  border: 1px solid rgb(80, 220, 120);
+  margin: 8px 4px 0px;
+}
+.Logo {
+  height: 24px;
+  width: 24px;
+  background-color: dodgerblue;
+  border: 1px solid black;
+}
+.Name {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(80, 220, 120);
+}

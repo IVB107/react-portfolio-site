@@ -1,0 +1,9 @@
+.Main {
+  /* background-image: linear-gradient(rgb(0, 180, 220), rgb(0, 20, 100)); */
+  color: rgb(80, 220, 120);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100%;
+}
