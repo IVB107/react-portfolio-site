@@ -11,13 +11,17 @@ class Main extends Component {
     super(props)
     this.state = {
       pageLoaded: false,
-      skills: {
-        tech: [
-          {name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}, {name: 'Express.js'}, {name: 'jQuery'}, {name: 'Node.js'}, {name: 'C'}, {name: 'Python'}, {name: 'git'} ],
-        tools: [
-          {name: 'GitHub'}, {name: 'npm'}, {name: 'Flexbox'}, {name: 'Bootstrap'}, {name: 'RESTful APIs'}, {name: 'Slack'}, {name: 'Codepen'}, {name: 'Terminal'}, {name: 'Babel'}
-          ]
-      }
+      // Devicon does not include: flexbox, npm, express.js, codepen, terminal
+      skills:
+        [ {name: 'html5', type: 'tech'}, {name: 'css3', type: 'tech'}, {name: 'javascript', type: 'tech'}, {name: 'jquery', type: 'tech'}, {name: 'nodejs', type: 'tech'}, {name: 'c', type: 'tech'}, {name: 'python', type: 'tech'}, {name: 'git', type: 'tech'}, {name: 'github', type: 'tool'}, {name: 'bootstrap', type: 'tool'}, {name: 'slack', type: 'tool'}, {name: 'babel', type: 'tool'} ],
+      skillType: 'all'
+    }
+  }
+
+  handleSortBy = (type) => {
+    const prev = this.state.skillType
+    if (prev !== type){
+      this.setState({ skillType: type })
     }
   }
 
@@ -27,7 +31,9 @@ class Main extends Component {
         <Home/>
         <Work/>
         <Skills
+          filter={this.state.skillType}
           skills={this.state.skills}
+          sortBy={this.handleSortBy}
         />
         <About/>
         <Contact/>

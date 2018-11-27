@@ -1,23 +1,62 @@
-.Nav {
+.Nav, .Open {
   width: 100vw;
   height: 100vh;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  background: rgba(80, 220, 120, .3);
+  background: rgba(40, 40, 40, .7);
   position: fixed;
   top: -100vh;
-  /* transition-duration: 1s; */
-  /* transition-timing-function: ease-out; */
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
 }
-.Nav:active {
-  /* top: 0vh; */
-  /* transition-duration: 1s; */
-  /* transition-timing-function: ease-out; */
+.Open {
+  top: 0vh;
 }
-.ToggleMenu {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  align-self: center;
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+  width: 100%;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  margin: 0px;
+  cursor: pointer;
+}
+.Container:hover > .IconWrapper {
+  color: rgb(80, 220, 120);
+  transition-duration: .2s;
+}
+.IconName {
+  color: rgba(80, 220, 120, 0);
+  margin: 4px 0px;
+  transition-duration: .2s;
+}
+.Container:hover > .IconName {
+  color: rgba(80, 220, 120, 1);
+  margin: 4px 0px;
+}
+.IconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  transition-duration: .2s;
+}
+.Container:hover > .IconWrapper {
+  height: 50px;
+  width: 50px;
+}
+.Icon {
+  font-size: 3em;
 }

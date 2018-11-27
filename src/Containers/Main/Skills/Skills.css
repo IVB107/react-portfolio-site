@@ -62,10 +62,15 @@ button {
   color: inherit;
   background: none
 }
+.Active {
+  background-color: rgb(80, 220, 120);
+  color: rgb(255, 255, 255);
+}
 .SkillContainer {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
   width: 90vw;
+  margin: 8px 0px;
 }

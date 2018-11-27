@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+import 'devicon/devicon.min.css'
 import './Skill.css'
 
 class Skill extends Component {
+
   render() {
     return (
       <div className="Skill">
-        <div className="Logo"></div>
-        <p className="Name">Skill Name</p>
+        <i className={`devicon-${this.props.name}-plain colored icon`}></i>
       </div>
     )
   }

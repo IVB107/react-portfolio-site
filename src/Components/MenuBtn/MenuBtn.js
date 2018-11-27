@@ -2,15 +2,14 @@ import React from 'react'
 import './MenuBtn.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown, faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faChevronDown, faPlus)
+library.add(faPlus)
 
 const MenuBtn = (props) => (
-  <div className="MenuBtn">
+  <div className="MenuBtn" onClick={props.toggleMenu}>
     <FontAwesomeIcon
-    // onClick={}
-    className="ToggleMenu"
+    className={props.menuOpen ? "MenuOpen" : "MenuClosed"}
     icon="plus"/>
   </div>
 )

@@ -1,11 +1,10 @@
 .Skill {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-grow: 1;
   width: 120px;
-  border: 1px solid rgb(80, 220, 120);
-  margin: 8px 4px 0px;
+  padding: .5em;
 }
 .Logo {
   height: 24px;
@@ -17,4 +16,8 @@
   font-size: 16px;
   font-weight: 700;
   color: rgb(80, 220, 120);
+}
+.icon {
+  display: flex;
+  font-size: 4em;
 }

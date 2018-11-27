@@ -1,8 +1,8 @@
 .MenuBtn {
   width: 50px;
   height: 50px;
-  top: 90vh;
-  left: 80vw;
+  top: 85vh;
+  left: 75vw;
   display: flex;
   border-radius: 50%;
   text-align: center;
@@ -13,11 +13,14 @@
   transition-duration: .3s;
   border: 2px solid rgba(255, 255, 255, 1);
 }
-.ToggleMenu {
+.MenuClosed, .MenuOpen{
   color: rgb(255, 255, 255);
   font-size: 24px;
   align-self: center;
-  transition-duration: .3s;
+  transition-duration: .5s;
+}
+.MenuOpen {
+  transform: rotate(315deg);
 }
 .MenuBtn:hover {
   background: rgb(255, 255, 255);
@@ -25,7 +28,7 @@
   border: 2px solid rgba(80, 220, 120, 1);
   cursor: pointer;
 }
-.MenuBtn:hover .ToggleMenu {
+.MenuBtn:hover .MenuClosed, .MenuBtn:hover .MenuOpen {
   color: rgb(80, 220, 120);
-  transition-duration: .3s;
+  transition-duration: .5s;
 }
