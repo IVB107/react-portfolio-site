@@ -6,17 +6,6 @@
   width: 120px;
   padding: .5em;
 }
-.Logo {
-  height: 24px;
-  width: 24px;
-  background-color: dodgerblue;
-  border: 1px solid black;
-}
-.Name {
-  font-size: 16px;
-  font-weight: 700;
-  color: rgb(80, 220, 120);
-}
 .icon {
   display: flex;
   font-size: 4em;

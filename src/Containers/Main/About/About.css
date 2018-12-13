@@ -6,4 +6,37 @@
   align-items: center;
   justify-content: center;
   margin: none;
+  background-color: rgb(80, 220, 120);
+}
+.Title {
+  color: rgb(255, 255, 255);
+  margin: 20px;
+}
+.ImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: auto;
+}
+.Headshot {
+  height: auto;
+  width: auto;
+}
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin: 20px;
+}
+.Text {
+  margin: 10px 0px;
+  color: rgb(255, 255, 255);
+  /* color: rgb(20, 20, 20); */
+  /* color: rgb(80, 220, 120); */
+  width: 100%;
+  text-indent: 40px;
+  text-align: left;
 }

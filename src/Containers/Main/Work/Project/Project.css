@@ -1,0 +1,13 @@
+.Project {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 50vw;
+  width: 75vw;
+  margin: 0px 0px 20px;
+  box-shadow: 2px 2px 4px rgba(180, 180, 180, 0);
+  transition-duration: .2s;
+  font-size: 4em;
+}

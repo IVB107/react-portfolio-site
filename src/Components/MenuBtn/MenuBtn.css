@@ -1,8 +1,8 @@
 .MenuBtn {
   width: 50px;
   height: 50px;
-  top: 85vh;
-  left: 75vw;
+  top: 88vh;
+  left: 78vw;
   display: flex;
   border-radius: 50%;
   text-align: center;
@@ -20,7 +20,7 @@
   transition-duration: .5s;
 }
 .MenuOpen {
-  transform: rotate(315deg);
+  transform: rotate(-315deg);
 }
 .MenuBtn:hover {
   background: rgb(255, 255, 255);

@@ -1,5 +1,5 @@
 .Work {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
   display: flex;
   color: white;
@@ -8,4 +8,13 @@
   justify-content: center;
   margin: none;
   background-color: rgb(80, 220, 120);
+}
+.ProjectContainer {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: flex-start;
+  width: 90vw;
+  margin: 20px 0px 40px;
 }

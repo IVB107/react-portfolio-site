@@ -1,0 +1,24 @@
+.Link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  width: 100px;
+  padding: 20px;
+  box-shadow: 2px 2px 4px rgba(180, 180, 180, 0);
+  transition-duration: .2s;
+  font-size: 4em;
+}
+.Link:hover {
+  box-shadow: 2px 2px 4px rgba(180, 180, 180, 1);
+  transition-duration: .2s;
+}
+.Link {
+  display: flex;
+  color: rgb(40, 40, 40);
+  transition-duration: .2s;
+}
+.Link:hover {
+  color: rgb(80, 220, 120);
+  transition-duration: .2s;
+}

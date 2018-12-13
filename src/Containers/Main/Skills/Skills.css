@@ -16,7 +16,7 @@
 .Dropdown {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 80vw;
   margin: 0px;
   padding: 0px;
   border: 2px solid rgb(80, 220, 120);
@@ -71,6 +71,6 @@ button {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  width: 90vw;
+  width: 80vw;
   margin: 8px 0px;
 }

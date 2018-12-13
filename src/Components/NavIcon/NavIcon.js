@@ -1,5 +1,4 @@
 import React from 'react'
-import './NavIcon.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCampground, faHome, faCameraRetro, faMountain, faCode, faKeyboard, faCodeBranch } from '@fortawesome/free-solid-svg-icons'

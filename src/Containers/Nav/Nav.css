@@ -5,7 +5,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  background: rgba(40, 40, 40, .7);
+  background: rgba(40, 40, 40, .9);
   position: fixed;
   top: -100vh;
   transition-duration: .5s;
@@ -36,12 +36,12 @@
   transition-duration: .2s;
 }
 .IconName {
-  color: rgba(80, 220, 120, 0);
+  color: rgba(255, 255, 255, 1);
   margin: 4px 0px;
   transition-duration: .2s;
 }
 .Container:hover > .IconName {
-  color: rgba(80, 220, 120, 1);
+  color: rgba(255, 255, 255, 0);
   margin: 4px 0px;
 }
 .IconWrapper {
@@ -52,11 +52,6 @@
   width: 50px;
   margin: 0px;
   transition-duration: .2s;
-}
-.Container:hover > .IconWrapper {
-  height: 50px;
-  width: 50px;
-}
-.Icon {
+  color: rgb(255, 255, 255);
   font-size: 3em;
 }
